@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/Background-1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+nav>h1{
+    text-align: center;
+    color:rgba(199, 69, 22, 0.884);
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Cedarville Cursive", cursive;
+    font-style: normal;
+}
+.cone{
+    background-color: rgba(255, 255, 255, 0.356);
+    width: 500px;
+    padding: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto ;
+    border-radius: 10px;
+    margin-top: 150px;
+}
+.cone>div>h1{
+    font-family: "Cedarville Cursive", cursive;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color:rgba(199, 69, 22, 0.884);
+
+}
+.inp1{
+    width: 300px;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.inp1:focus{
+    outline: none;
+}
+.but{
+    border: none;
+    color: white;
+    background-color:black;
+    padding: 10px 40px 10px 40px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+.but:hover{
+    background-color: green;
+}
+.inp2{
+    border: none;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.397);
+    width: 200px;
+    border-radius: 5px;
+    margin: 0px auto 0px auto;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media screen and (max-width:480px) {
+
+body{
+    width: 100%;
+    background-size: auto;
+    padding: 0px 20px;
+}
+nav>h1{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.cone{
+    width: auto;
+    /* padding: 70px ; */
+    text-align: center;
+    padding: 20px 0px;
+    
+    
+}
+.cone>div>h1{
+    font-family: "Cedarville Cursive", cursive;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color:rgba(199, 69, 22, 0.884);
+
+}
+
+.inp1{
+    width: 200px;
+}
+    
+}
+
+
